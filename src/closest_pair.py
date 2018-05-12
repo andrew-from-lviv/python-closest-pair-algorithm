@@ -4,7 +4,8 @@ import time
 import numpy as np
 from scipy.spatial import distance
 
-
+# Slightly optimized algorithm explained in :
+# https://www.coursera.org/learn/algorithms-divide-conquer/lecture/nf0jk/o-n-log-n-algorithm-for-closest-pair-i-advanced-optional
 class ClosestPairAlgorithm:
     def __init__(self, problem_size = 16):
         self.default_problem_size = problem_size
